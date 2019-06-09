@@ -1,0 +1,26 @@
+{
+  "name": "@funcmaticjs/pretty-logs",
+  "version": "0.0.1",
+  "description": "Can be used with the Funcmatic default logger to prettify log lines. Recommended for development use only.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funcmaticjs/pretty-logs.git"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dateformat": "^3.0.3"
+  },
+  "devDependencies": {
+    "@funcmaticjs/funcmatic": "0.0.3",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
