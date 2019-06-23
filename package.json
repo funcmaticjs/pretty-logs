@@ -1,6 +1,6 @@
 {
   "name": "@funcmaticjs/pretty-logs",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Can be used with the Funcmatic default logger to prettify log lines. Recommended for development use only.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "dateformat": "^3.0.3"
   },
   "devDependencies": {
-    "@funcmaticjs/funcmatic": "0.0.3",
+    "@funcmaticjs/funcmatic": "0.0.5",
     "jest": "^24.8.0"
   },
   "jest": {

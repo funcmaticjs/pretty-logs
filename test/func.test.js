@@ -12,7 +12,7 @@ describe('Func Logger', () => {
   it ('should pretty print logs if prettify function passed in', async () => {
     func.request(async (ctx) => {
       let ret = ctx.logger.info("hello world")
-      expect(ret[0]).toEqual(expect.stringContaining(`${chalk.green("INFO")} ${chalk.cyan("hello world")}`))
+      expect(ret).toEqual(expect.stringContaining(`${chalk.green("INFO")} ${chalk.cyan("hello world")}`))
     })
     await func.invokeRequest(ctx)
   })

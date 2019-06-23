@@ -5,8 +5,8 @@ describe('Prettify', () => {
   let line = null 
   beforeEach(async () => {
     line = {
-      level: 'info',
-      leveln: 20,
+      level: 20,
+      level_name: 'info',
       time: Date.now()
     }
   })
